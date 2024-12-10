@@ -82,7 +82,7 @@ const HeroSection = () => {
       id="home"
       className="relative h-screen flex items-center justify-center text-center"
       style={{
-        backgroundImage: 'url("/api/placeholder/1600/900")',
+        backgroundImage: `url("/api/placeholder/1600/900")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -208,7 +208,7 @@ const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Implement email collection logic
-    alert(`Thank you! We'll notify ${email} when CakeQuest launches!`);
+    alert(`Thank you! We&apos;ll notify ${email} when CakeQuest launches!`);
     setEmail("");
   };
 
@@ -217,7 +217,7 @@ const ContactSection = () => {
       id="home"
       className="relative h-screen flex items-center justify-center text-center"
       style={{
-        backgroundImage: 'url("/api/placeholder/1600/900")',
+        backgroundImage: `url("/api/placeholder/1600/900")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -227,7 +227,7 @@ const ContactSection = () => {
           So what do you think of this idea
         </h2>
         <p className="mb-6 text-gray-700">
-          If you think this idea is worth your time, let's get in touch!
+          If you think this idea is worth your time, let&apos;s get in touch!
         </p>
         <form onSubmit={handleSubmit} className="flex">
           <input

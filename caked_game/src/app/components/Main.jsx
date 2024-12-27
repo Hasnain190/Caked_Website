@@ -3,8 +3,10 @@ import React from "react";
 
 import { Cake, Gamepad2, ShoppingCart } from "lucide-react";
 import gameImage from "../assets/gamess.png";
+import CakeBgImage from "@/app/assets/cake-bg.png";
 import Image from "next/image";
 import Button from "./Button";
+import CupCakeImage from "@/app/assets/Cupcakes.jpg";
 // Main App Component
 const CakeGameApp = () => {
   return (
@@ -57,9 +59,10 @@ const HeroSection = () => {
       id="home"
       className="relative h-screen flex items-center justify-center text-center"
       style={{
-        backgroundImage: `url("/api/placeholder/1600/900")`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundImage: `url(${CakeBgImage.src})`,
+        backgroundSize: "40%",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "left",
       }}
     >
       <div className="bg-white/80 p-10 rounded-xl shadow-2xl max-w-xl w-full">
@@ -167,7 +170,7 @@ const ContactSection = () => {
       id="home"
       className="relative h-screen flex items-center justify-center text-center"
       style={{
-        backgroundImage: `url("/api/placeholder/1600/900")`,
+        backgroundImage: `url(${CupCakeImage.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

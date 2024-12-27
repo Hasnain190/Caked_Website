@@ -25,10 +25,10 @@ const CakeGameApp = () => {
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
+      <nav className="container mx-auto px-4 md:px-9 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <Cake className="text-pink-500" />
-          <h1 className="text-xl font-bold text-pink-600">Cake Adventure</h1>
+          <Cake className="text-pink-500" size={70} />
+          <h1 className="text-4xl font-bold text-pink-600">Cake Adventure</h1>
         </div>
         <ul className="flex space-x-4">
           <li>

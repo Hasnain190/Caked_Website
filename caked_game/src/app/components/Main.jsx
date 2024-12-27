@@ -6,7 +6,7 @@ import gameImage from "../assets/gamess.png";
 import CakeBgImage from "@/app/assets/cake-bg.png";
 import Image from "next/image";
 import Button from "./Button";
-import CupCakeImage from "@/app/assets/Cupcakes.jpg";
+import CupCakeImage from "@/app/assets/cupcakes.jpg";
 // Main App Component
 const CakeGameApp = () => {
   return (
